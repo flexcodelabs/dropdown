@@ -1,0 +1,48 @@
+.dropdown {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  min-width: 20px;
+}
+
+.dropdown.open {
+  opacity: 1;
+  pointer-events: all;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.dropdown.up, .dropdown.up-center {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.dropdown.up.open, .dropdown.up-center.open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.dropdown.left, .dropdown.left-center {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.dropdown.left.open, .dropdown.left-center.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.dropdown.right, .dropdown.right-center {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.dropdown.right.open, .dropdown.right-center.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+/*# sourceMappingURL=dropdown.css.map */
