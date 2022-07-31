@@ -1,5 +1,5 @@
 {
-  "name": "@flexcodelabs/package-name",
+  "name": "@flexcodelabs/dropdown",
   "version": "0.1.0",
   "description": "",
   "main": "./lib/cjs/index.js",
@@ -31,5 +31,8 @@
   },
   "files": [
     "/lib"
-  ]
+  ],
+  "dependencies": {
+    "@flexcodelabs/use-events-hooks": "^0.1.0"
+  }
 }
